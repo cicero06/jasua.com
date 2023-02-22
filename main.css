@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 1px;
+  list-style: none;
+}
+
+body {
+  background-color: #ffc048;
+}
+body .navbarofjasuaPage {
+  display: flex;
+  flex-direction: row;
+  height: 320px;
+  width: 100%;
+  background-color: #ffdd59;
+}
+body .navbarofjasuaPage .container {
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+  margin: 0px auto;
+}
+body .navbarofjasuaPage .navbar-collapse {
+  height: 50px;
+  width: 1000px;
+  margin: auto 0px;
+}
+body .navbarofjasuaPage .navbar-collapse ul li {
+  float: left;
+}
+body .navbarofjasuaPage .navbar-collapse ul li a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 150px;
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+body .navbarofjasuaPage .navbar-collapse ul li a:hover {
+  color: beige;
+}
+
+.containermt-3 {
+  flex-direction: row;
+  display: flex;
+}
+.containermt-3 .row {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+  margin: 1px;
+  padding: 1px;
+}
+.containermt-3 .row .colmd-9 .card-shadow {
+  list-style-type: disc;
+  -webkit-text-decoration: solid;
+          text-decoration: solid;
+  height: 100%;
+  width: 100%;
+  border-color: black;
+  border-style: solid;
+  justify-content: flex-start;
+  flex-basis: 24%;
+}
+.containermt-3 .row .colmd-9 .card-shadow .card-body {
+  background-color: aliceblue;
+  list-style: circle;
+}
+.containermt-3 .row .portfolios {
+  max: width 50px;
+  max: height 50px;
+  border-style: solid;
+  justify-content: center;
+  flex-basis: 43%;
+}
+.containermt-3 .row .asideclass {
+  max: width 75px;
+  max: height 75px;
+  border-style: solid;
+  justify-content: flex-end;
+  flex-basis: 10%;
+}
+.containermt-3 .row .asideclass .rounded circle {
+  width: "280";
+  height: "220";
+  display: "flex";
+  flex-basis: "20%";
+  justify-content: "center";
+}/*# sourceMappingURL=main.css.map */
